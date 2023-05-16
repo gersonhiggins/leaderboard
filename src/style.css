@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboard {
+  display: flex;
+  gap: 30px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.recent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.score:nth-child(even) {
+  background-color: rgb(227, 227, 227);
+}
+
+.score p {
+  margin: 0;
+  padding: 5px;
+}
+
+.recent-scores {
+  border: 1px solid black;
+}
+
+.add-scores form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 450px) {
+  .leaderboard {
+    flex-direction: column;
+  }
+}
