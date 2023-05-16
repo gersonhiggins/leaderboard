@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@100;900&display=swap');
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +7,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Bruno Ace SC', sans-serif;
+  background-image: url('./images/HD-wallpaper-space-open-space-planets-art-colorful.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  font-family: 'Bruno Ace SC', sans-serif;
+}
+
+input {
+  font-family: 'Bruno Ace SC', sans-serif;
 }
 
 .leaderboard {
@@ -12,9 +26,16 @@ body {
   gap: 30px;
 }
 
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
 h2 {
+  color: white;
   padding: 0;
   margin: 0;
+  text-shadow: 1px 1px 2px black;
 }
 
 .recent {
@@ -26,6 +47,10 @@ h2 {
 
 .score:nth-child(even) {
   background-color: rgb(227, 227, 227);
+}
+
+.score:nth-child(odd) {
+  background-color: white;
 }
 
 .score p {
